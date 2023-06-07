@@ -12,6 +12,12 @@
 </head>
 
 <body>
+    <?php
+        $path = 'data.json';
+        $jsonString = file_get_contents($path);
+        $jsonData = json_decode($jsonString, true);
+    ?>
+
     <div class="content">
 
         <?php include "components/navbar.php"; ?>
