@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="BESO LLYC Prueba Técnica">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="app.css">
+  
+</head>
+
+<body>
+    <div class="content">
+
+        <?php include "components/navbar.php"; ?>
+
+        <?php include "components/destination-picker.php"; ?>
+    </div>
+
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
