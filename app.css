@@ -116,6 +116,10 @@ a {
     margin-right: 35px;
 }
 
+.destination-picker .description .description__tabs .description__tabs--link:last-child{
+    margin-right: 0;
+}
+
 .destination-picker .description .description__tabs .description__tabs--link a{
     color: #ffffff;
     font-size: 16px;
@@ -158,7 +162,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .destination-picker .description .description__specs p{
@@ -170,6 +174,10 @@ a {
     font-weight: 400;
     line-height: 32.09px;
     text-align: center;
+}
+
+.destination-picker .description .description__specs:last-child {
+    margin-right: 0;
 }
 
 .destination-picker .description .description__specs span{
@@ -195,7 +203,8 @@ a {
         flex-direction: row;
     }
 
-    .destination-picker .description, .destination-picker .description .description__tabs {
+    .destination-picker .description, .destination-picker .description .description__tabs,
+    .destination-picker .description .description__specs {
         align-items: flex-start;
     }
 
